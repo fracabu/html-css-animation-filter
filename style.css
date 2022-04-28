@@ -60,7 +60,12 @@
     transition: 2s;
 }
 .ex-7-img:hover{
-    filter: drop-shadow(.5) invert(.5);
+    filter: blur(20px) grayscale(20%);
+}
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: brightness(50%) grayscale(20%);
+    ;
 }
 .ex-9-img {
     margin: 50px 100px;
